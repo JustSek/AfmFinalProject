@@ -9,9 +9,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class BrowserDriverFactory {
-
-
-//    protected WebDriver driver;
     private String browser;
     private Logger log;
 

@@ -5,9 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.Color;
-
-import java.util.Collections;
 import java.util.List;
 
 public class MainPage extends BasePageObject {
@@ -22,10 +19,6 @@ public class MainPage extends BasePageObject {
 
     public String getEXPECTED_CHANGE_MIND_MSG() {
         return EXPECTED_CHANGE_MIND_MSG;
-    }
-
-    public By getCHANGE_MIND_MSG() {
-        return CHANGE_MIND_MSG;
     }
 
     public String getEXPECTED_CHANGE_MIND_MSG_COLOUR() {

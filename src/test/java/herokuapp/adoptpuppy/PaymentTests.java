@@ -7,7 +7,6 @@ import herokuapp.adoptpuppy.pages.OrderPage;
 import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
 import java.util.Map;
 
 public class PaymentTests extends TestUtilities {

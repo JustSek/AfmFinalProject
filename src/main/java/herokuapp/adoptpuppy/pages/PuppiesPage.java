@@ -8,7 +8,6 @@ public class PuppiesPage extends BasePageObject{
 
     private By ADOPT_ME_BTN = By.xpath("//input[@value='Adopt Me!']");
     private By ADOPT_A_PUPPY_PAGE = By.linkText("Adopt a Puppy");
-    private By ADOPT_ANOTHER_PUPPY_BTN = By.xpath("//input[@value='Adopt Another Puppy']");
 
     public PuppiesPage(WebDriver driver, Logger log) {
         super(driver, log);
@@ -27,12 +26,5 @@ public class PuppiesPage extends BasePageObject{
         click(ADOPT_A_PUPPY_PAGE);
         return new MainPage(driver, log);
     }
-
-    public MainPage adopt_another_puppy() {
-        log.info("Click adopt another Puppy!");
-        click(ADOPT_ANOTHER_PUPPY_BTN);
-        return new MainPage(driver, log);
-    }
-
 
 }
