@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CartTestSuite" verbose="1">
+
+    <test name="Cart tests Chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="herokuapp.adoptpuppy.CartTests" />
+        </classes>
+    </test>
+
+    <test name="Cart tests FireFox">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="herokuapp.adoptpuppy.CartTests" />
+        </classes>
+    </test>
+
+</suite>

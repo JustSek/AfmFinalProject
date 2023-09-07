@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FullUITestSuite Chrome" verbose="1">
+
+    <test name="OrderFormTests">
+        <parameter name="username" value="Pucio"></parameter>
+        <parameter name="address" value="Pucio street 123"></parameter>
+        <parameter name="email" value="pucio@pucio.com"></parameter>
+        <classes>
+            <class name="herokuapp.adoptpuppy.PaymentTests" />
+        </classes>
+    </test>
+
+    <test name="E2E scenarios">
+        <parameter name="username" value="Pucio"> </parameter>
+        <parameter name="address" value="Pucio street 123"> </parameter>
+        <parameter name="email" value="pucio@pucio.com"> </parameter>
+        <classes>
+            <class name="herokuapp.adoptpuppy.E2eTests" />
+        </classes>
+    </test>
+
+    <test name="Cart tests">
+        <classes>
+            <class name="herokuapp.adoptpuppy.CartTests" />
+        </classes>
+    </test>
+
+    <test name="Navigation tests Chrome">
+        <classes>
+            <class name="herokuapp.adoptpuppy.NavigationTests" />
+        </classes>
+    </test>
+
+
+
+
+</suite>

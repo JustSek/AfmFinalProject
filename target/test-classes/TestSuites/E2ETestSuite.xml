@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="e2eTestSuite" verbose="1">
+
+    <test name="E2E tests Chrome">
+        <parameter name="username" value="Pucio"> </parameter>
+        <parameter name="address" value="Pucio street 123"> </parameter>
+        <parameter name="email" value="pucio@pucio.com"> </parameter>
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="herokuapp.adoptpuppy.E2eTests" />
+        </classes>
+    </test>
+
+    <test name="E2E tests FireFox">
+        <parameter name="username" value="Pucio"> </parameter>
+        <parameter name="address" value="Pucio street 123"> </parameter>
+        <parameter name="email" value="pucio@pucio.com"> </parameter>
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="herokuapp.adoptpuppy.E2eTests" />
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PaymentTestSuite" verbose="1">
+
+    <test name="OrderFormTests-CH">
+        <parameter name="username" value="Pucio"></parameter>
+        <parameter name="address" value="Pucio street 123"></parameter>
+        <parameter name="email" value="pucio@pucio.com"></parameter>
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="herokuapp.adoptpuppy.PaymentTests" />
+        </classes>
+    </test>
+
+    <test name="OrderFormTests-FF">
+        <parameter name="username" value="Pucio"></parameter>
+        <parameter name="address" value="Pucio street 123"></parameter>
+        <parameter name="email" value="pucio@pucio.com"></parameter>
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="herokuapp.adoptpuppy.PaymentTests" />
+        </classes>
+    </test>
+</suite>
