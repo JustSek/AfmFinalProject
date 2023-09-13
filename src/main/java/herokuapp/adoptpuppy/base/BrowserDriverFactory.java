@@ -22,20 +22,18 @@ public class BrowserDriverFactory {
             WebDriver driver;
             switch (browser) {
                 case "chrome":
-                    //WebDriverManager.chromedriver().setup();
-                    ChromeOptions chromeOptions = new ChromeOptions();
-                    chromeOptions.addArguments("--remote-allow-origins=*");
-                    driver = new ChromeDriver(chromeOptions);
+                    WebDriverManager.chromedriver().setup();
+                    driver = new ChromeDriver();
                     break;
 
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup();
-                    driver = new FirefoxDriver(new FirefoxOptions().setBinary("C:\\Program Files\\Mozilla Firefox\\firefox.exe"));
+                    driver = new FirefoxDriver();
                     break;
 
                 default:
                     System.out.println("Do not know how to start: " + browser + ", starting chrome.");
-                    System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+                    WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
                     break;
             }
