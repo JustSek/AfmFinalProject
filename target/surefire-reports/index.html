@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-FullUITestSuite" class="navigator-link">
+              <span class="suite-name border-passed">FullUITestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-FullUITestSuite" class="navigator-link ">
+                    <span>C:\Users\justy\IdeaProjects\AfmFinalProject\src\test\resources\TestSuites\01_FullUITestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-FullUITestSuite" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-FullUITestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-FullUITestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-FullUITestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-FullUITestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-FullUITestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FullUITestSuite" class="hide-methods passed suite-FullUITestSuite"> (hide)</a> <!-- hide-methods passed suite-FullUITestSuite -->
+                      <a href="#" panel-name="suite-FullUITestSuite" class="show-methods passed suite-FullUITestSuite"> (show)</a> <!-- show-methods passed suite-FullUITestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-FullUITestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="herokuapp.adoptpuppy.CartTests" class="method navigator-link" hash-for-method="adopt_another_puppy_btn_test">adopt_another_puppy_btn_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="herokuapp.adoptpuppy.E2eTests" class="method navigator-link" hash-for-method="adopt_one_dog_Test(Pucio, Pucio street 123, pucio@pucio.com)">adopt_one_dog_Test(Pucio, Pucio street 123, pucio@pucio.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="herokuapp.adoptpuppy.E2eTests" class="method navigator-link" hash-for-method="adopt_two_dogs_and_add_3_items_to_one(Pucio, Pucio street 123, pucio@pucio.com)">adopt_two_dogs_and_add_3_items_to_one(Pucio, Pucio street 123, pucio@pucio.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="herokuapp.adoptpuppy.E2eTests" class="method navigator-link" hash-for-method="adopt_two_random_dogs_with_the_same_addition_Test(Pucio, Pucio street 123, pucio@pucio.com)">adopt_two_random_dogs_with_the_same_addition_Test(Pucio, Pucio street 123, pucio@pucio.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="herokuapp.adoptpuppy.CartTests" class="method navigator-link" hash-for-method="change_mind_btn_test">change_mind_btn_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="herokuapp.adoptpuppy.CartTests" class="method navigator-link" hash-for-method="complete_the_adoption_btn_test">complete_the_adoption_btn_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="herokuapp.adoptpuppy.PaymentTests" class="method navigator-link" hash-for-method="order_form_positive_Test(Pucio, Pucio street 123, pucio@pucio.com)">order_form_positive_Test(Pucio, Pucio street 123, pucio@pucio.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="herokuapp.adoptpuppy.PaymentTests" class="method navigator-link" hash-for-method="order_form_single_filed_empty_negative_Test({no=2, address=, name=Pucio, description=Empty address test, payment=Check, error=Address can&#039;t be b...)">order_form_single_filed_empty_negative_Test({no=2, address=, name=Pucio, description=Empty address test, payment=Check, error=Address can't be b...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="herokuapp.adoptpuppy.PaymentTests" class="method navigator-link" hash-for-method="order_form_single_filed_empty_negative_Test({no=1, address=3338 Hilltop Drive, name=, description=Empty name test, payment=Check, error=Name can...)">order_form_single_filed_empty_negative_Test({no=1, address=3338 Hilltop Drive, name=, description=Empty name test, payment=Check, error=Name can...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="herokuapp.adoptpuppy.PaymentTests" class="method navigator-link" hash-for-method="order_form_single_filed_empty_negative_Test({no=3, address=3338 Hilltop Drive, name=Pucio, description=Empty e-mail adress test, payment=Check, ...)">order_form_single_filed_empty_negative_Test({no=3, address=3338 Hilltop Drive, name=Pucio, description=Empty e-mail adress test, payment=Check, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="herokuapp.adoptpuppy.NavigationTests" class="method navigator-link" hash-for-method="previous_btn_first_page_test">previous_btn_first_page_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="herokuapp.adoptpuppy.NavigationTests" class="method navigator-link" hash-for-method="previous_btn_test">previous_btn_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FullUITestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FullUITestSuite" class="panel FullUITestSuite">
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">herokuapp.adoptpuppy.CartTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adopt_another_puppy_btn_test">
+                  </a> <!-- adopt_another_puppy_btn_test -->
+                  <span class="method-name">adopt_another_puppy_btn_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="change_mind_btn_test">
+                  </a> <!-- change_mind_btn_test -->
+                  <span class="method-name">change_mind_btn_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="complete_the_adoption_btn_test">
+                  </a> <!-- complete_the_adoption_btn_test -->
+                  <span class="method-name">complete_the_adoption_btn_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">herokuapp.adoptpuppy.NavigationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="previous_btn_first_page_test">
+                  </a> <!-- previous_btn_first_page_test -->
+                  <span class="method-name">previous_btn_first_page_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="previous_btn_test">
+                  </a> <!-- previous_btn_test -->
+                  <span class="method-name">previous_btn_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">herokuapp.adoptpuppy.PaymentTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_form_positive_Test(Pucio, Pucio street 123, pucio@pucio.com)">
+                  </a> <!-- order_form_positive_Test(Pucio, Pucio street 123, pucio@pucio.com) -->
+                  <span class="method-name">order_form_positive_Test</span>
+                  <span class="parameters">(Pucio,Pucio street 123,pucio@pucio.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_form_single_filed_empty_negative_Test({no=2, address=, name=Pucio, description=Empty address test, payment=Check, error=Address can&#039;t be b...)">
+                  </a> <!-- order_form_single_filed_empty_negative_Test({no=2, address=, name=Pucio, description=Empty address test, payment=Check, error=Address can't be b...) -->
+                  <span class="method-name">order_form_single_filed_empty_negative_Test</span>
+                  <span class="parameters">({no=2, address=, name=Pucio, description=Empty address test, payment=Check, error=Address can't be blank, email=okinsky@mango.com, errorHeader=1 error prohibited this order from being saved:})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_form_single_filed_empty_negative_Test({no=1, address=3338 Hilltop Drive, name=, description=Empty name test, payment=Check, error=Name can...)">
+                  </a> <!-- order_form_single_filed_empty_negative_Test({no=1, address=3338 Hilltop Drive, name=, description=Empty name test, payment=Check, error=Name can...) -->
+                  <span class="method-name">order_form_single_filed_empty_negative_Test</span>
+                  <span class="parameters">({no=1, address=3338 Hilltop Drive, name=, description=Empty name test, payment=Check, error=Name can't be blank, email=okinsky@mango.com, errorHeader=1 error prohibited this order from being saved:})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_form_single_filed_empty_negative_Test({no=3, address=3338 Hilltop Drive, name=Pucio, description=Empty e-mail adress test, payment=Check, ...)">
+                  </a> <!-- order_form_single_filed_empty_negative_Test({no=3, address=3338 Hilltop Drive, name=Pucio, description=Empty e-mail adress test, payment=Check, ...) -->
+                  <span class="method-name">order_form_single_filed_empty_negative_Test</span>
+                  <span class="parameters">({no=3, address=3338 Hilltop Drive, name=Pucio, description=Empty e-mail adress test, payment=Check, error=Email can't be blank, email=, errorHeader=1 error prohibited this order from being saved:})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">herokuapp.adoptpuppy.E2eTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adopt_one_dog_Test(Pucio, Pucio street 123, pucio@pucio.com)">
+                  </a> <!-- adopt_one_dog_Test(Pucio, Pucio street 123, pucio@pucio.com) -->
+                  <span class="method-name">adopt_one_dog_Test</span>
+                  <span class="parameters">(Pucio,Pucio street 123,pucio@pucio.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adopt_two_dogs_and_add_3_items_to_one(Pucio, Pucio street 123, pucio@pucio.com)">
+                  </a> <!-- adopt_two_dogs_and_add_3_items_to_one(Pucio, Pucio street 123, pucio@pucio.com) -->
+                  <span class="method-name">adopt_two_dogs_and_add_3_items_to_one</span>
+                  <span class="parameters">(Pucio,Pucio street 123,pucio@pucio.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adopt_two_random_dogs_with_the_same_addition_Test(Pucio, Pucio street 123, pucio@pucio.com)">
+                  </a> <!-- adopt_two_random_dogs_with_the_same_addition_Test(Pucio, Pucio street 123, pucio@pucio.com) -->
+                  <span class="method-name">adopt_two_random_dogs_with_the_same_addition_Test</span>
+                  <span class="parameters">(Pucio,Pucio street 123,pucio@pucio.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+        </div> <!-- panel FullUITestSuite -->
+        <div panel-name="test-xml-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\justy\IdeaProjects\AfmFinalProject\src\test\resources\TestSuites\01_FullUITestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;FullUITestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;OrderFormTests&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;address&quot; value=&quot;Pucio street 123&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;pucio@pucio.com&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;Pucio&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;herokuapp.adoptpuppy.PaymentTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- OrderFormTests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;E2E scenarios&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;address&quot; value=&quot;Pucio street 123&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;pucio@pucio.com&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;Pucio&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;herokuapp.adoptpuppy.E2eTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- E2E scenarios --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Cart tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;herokuapp.adoptpuppy.CartTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Cart tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Navigation tests Chrome&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;herokuapp.adoptpuppy.NavigationTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Navigation tests Chrome --&gt;
+&lt;/suite&gt; &lt;!-- FullUITestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FullUITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">OrderFormTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">E2E scenarios (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Cart tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Navigation tests Chrome (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FullUITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FullUITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FullUITestSuite');
+function tableData_FullUITestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'order_form_positive_Test')
+data.setCell(0, 2, 'herokuapp.adoptpuppy.PaymentTests')
+data.setCell(0, 3, 11472);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'adopt_two_random_dogs_with_the_same_addition_Test')
+data.setCell(1, 2, 'herokuapp.adoptpuppy.E2eTests')
+data.setCell(1, 3, 5784);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'adopt_two_dogs_and_add_3_items_to_one')
+data.setCell(2, 2, 'herokuapp.adoptpuppy.E2eTests')
+data.setCell(2, 3, 5464);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'order_form_single_filed_empty_negative_Test')
+data.setCell(3, 2, 'herokuapp.adoptpuppy.PaymentTests')
+data.setCell(3, 3, 4063);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'order_form_single_filed_empty_negative_Test')
+data.setCell(4, 2, 'herokuapp.adoptpuppy.PaymentTests')
+data.setCell(4, 3, 3948);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'order_form_single_filed_empty_negative_Test')
+data.setCell(5, 2, 'herokuapp.adoptpuppy.PaymentTests')
+data.setCell(5, 3, 3942);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'adopt_one_dog_Test')
+data.setCell(6, 2, 'herokuapp.adoptpuppy.E2eTests')
+data.setCell(6, 3, 3645);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'change_mind_btn_test')
+data.setCell(7, 2, 'herokuapp.adoptpuppy.CartTests')
+data.setCell(7, 3, 2915);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'complete_the_adoption_btn_test')
+data.setCell(8, 2, 'herokuapp.adoptpuppy.CartTests')
+data.setCell(8, 3, 2733);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'adopt_another_puppy_btn_test')
+data.setCell(9, 2, 'herokuapp.adoptpuppy.CartTests')
+data.setCell(9, 3, 2732);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'previous_btn_test')
+data.setCell(10, 2, 'herokuapp.adoptpuppy.NavigationTests')
+data.setCell(10, 3, 2650);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'previous_btn_first_page_test')
+data.setCell(11, 2, 'herokuapp.adoptpuppy.NavigationTests')
+data.setCell(11, 3, 1775);
+window.suiteTableData['FullUITestSuite']= { tableData: data, tableDiv: 'times-div-FullUITestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 51 seconds</span>
+              <div id="times-div-FullUITestSuite">
+              </div> <!-- times-div-FullUITestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FullUITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">herokuapp.adoptpuppy.PaymentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, org.testng.TestRunner@1818d00b)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">order_form_positive_Test(Pucio, Pucio street 123, pucio@pucio.com)</span>
+                <span class="method-start">4401 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15873 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, org.testng.TestRunner@1818d00b)</span>
+                <span class="method-start">16111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">order_form_single_filed_empty_negative_Test({no=1, address=3338 Hilltop Drive, name=, description=Empty name test, payment=Check, error=Name can...)</span>
+                <span class="method-start">16999 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21063 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, org.testng.TestRunner@1818d00b)</span>
+                <span class="method-start">21240 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">order_form_single_filed_empty_negative_Test({no=2, address=, name=Pucio, description=Empty address test, payment=Check, error=Address can't be b...)</span>
+                <span class="method-start">22115 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26058 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, org.testng.TestRunner@1818d00b)</span>
+                <span class="method-start">26276 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">order_form_single_filed_empty_negative_Test({no=3, address=3338 Hilltop Drive, name=Pucio, description=Empty e-mail adress test, payment=Check, ...)</span>
+                <span class="method-start">27243 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31192 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">herokuapp.adoptpuppy.E2eTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, org.testng.TestRunner@b3a8455)</span>
+                <span class="method-start">31418 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adopt_one_dog_Test(Pucio, Pucio street 123, pucio@pucio.com)</span>
+                <span class="method-start">32424 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36069 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, org.testng.TestRunner@b3a8455)</span>
+                <span class="method-start">36243 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adopt_two_dogs_and_add_3_items_to_one(Pucio, Pucio street 123, pucio@pucio.com)</span>
+                <span class="method-start">37380 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42844 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, org.testng.TestRunner@b3a8455)</span>
+                <span class="method-start">43035 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adopt_two_random_dogs_with_the_same_addition_Test(Pucio, Pucio street 123, pucio@pucio.com)</span>
+                <span class="method-start">44056 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49840 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">herokuapp.adoptpuppy.CartTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, org.testng.TestRunner@5c930fc3)</span>
+                <span class="method-start">50033 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adopt_another_puppy_btn_test</span>
+                <span class="method-start">51001 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53734 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, org.testng.TestRunner@5c930fc3)</span>
+                <span class="method-start">53926 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">change_mind_btn_test</span>
+                <span class="method-start">54828 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">57743 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, org.testng.TestRunner@5c930fc3)</span>
+                <span class="method-start">57935 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">complete_the_adoption_btn_test</span>
+                <span class="method-start">58856 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61590 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">herokuapp.adoptpuppy.NavigationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, org.testng.TestRunner@25c6ab3f)</span>
+                <span class="method-start">61786 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">previous_btn_first_page_test</span>
+                <span class="method-start">62697 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64473 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, org.testng.TestRunner@25c6ab3f)</span>
+                <span class="method-start">64656 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">previous_btn_test</span>
+                <span class="method-start">65577 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68228 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

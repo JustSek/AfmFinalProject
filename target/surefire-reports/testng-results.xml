@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-14T16:20:43 BST" name="FullUITestSuite" finished-at="2023-09-14T16:21:52 BST" duration-ms="68452">
+    <groups>
+    </groups>
+    <test started-at="2023-09-14T16:20:43 BST" name="OrderFormTests" finished-at="2023-09-14T16:21:15 BST" duration-ms="31420">
+      <class name="herokuapp.adoptpuppy.PaymentTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:herokuapp.adoptpuppy.PaymentTests@63021689]" started-at="2023-09-14T16:20:43 BST" name="setUp" finished-at="2023-09-14T16:20:48 BST" duration-ms="4401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1818d00b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="order_form_positive_Test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:herokuapp.adoptpuppy.PaymentTests@63021689]" started-at="2023-09-14T16:20:48 BST" name="order_form_positive_Test" finished-at="2023-09-14T16:20:59 BST" duration-ms="11472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pucio]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pucio street 123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pucio@pucio.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order_form_positive_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:herokuapp.adoptpuppy.PaymentTests@63021689]" started-at="2023-09-14T16:20:59 BST" name="tearDown" finished-at="2023-09-14T16:20:59 BST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:herokuapp.adoptpuppy.PaymentTests@63021689]" started-at="2023-09-14T16:20:59 BST" name="setUp" finished-at="2023-09-14T16:21:00 BST" duration-ms="887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1818d00b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="order_form_single_filed_empty_negative_Test(java.util.Map)[pri:0, instance:herokuapp.adoptpuppy.PaymentTests@63021689]" started-at="2023-09-14T16:21:00 BST" name="order_form_single_filed_empty_negative_Test" data-provider="csv_reader" finished-at="2023-09-14T16:21:04 BST" duration-ms="4063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=1, address=3338 Hilltop Drive, name=, description=Empty name test, payment=Check, error=Name can't be blank, email=okinsky@mango.com, errorHeader=1 error prohibited this order from being saved:}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order_form_single_filed_empty_negative_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:herokuapp.adoptpuppy.PaymentTests@63021689]" started-at="2023-09-14T16:21:04 BST" name="tearDown" finished-at="2023-09-14T16:21:04 BST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:herokuapp.adoptpuppy.PaymentTests@63021689]" started-at="2023-09-14T16:21:04 BST" name="setUp" finished-at="2023-09-14T16:21:05 BST" duration-ms="875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1818d00b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="order_form_single_filed_empty_negative_Test(java.util.Map)[pri:0, instance:herokuapp.adoptpuppy.PaymentTests@63021689]" started-at="2023-09-14T16:21:05 BST" name="order_form_single_filed_empty_negative_Test" data-provider="csv_reader" finished-at="2023-09-14T16:21:09 BST" duration-ms="3942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=2, address=, name=Pucio, description=Empty address test, payment=Check, error=Address can't be blank, email=okinsky@mango.com, errorHeader=1 error prohibited this order from being saved:}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order_form_single_filed_empty_negative_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:herokuapp.adoptpuppy.PaymentTests@63021689]" started-at="2023-09-14T16:21:09 BST" name="tearDown" finished-at="2023-09-14T16:21:09 BST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:herokuapp.adoptpuppy.PaymentTests@63021689]" started-at="2023-09-14T16:21:09 BST" name="setUp" finished-at="2023-09-14T16:21:10 BST" duration-ms="967" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1818d00b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="order_form_single_filed_empty_negative_Test(java.util.Map)[pri:0, instance:herokuapp.adoptpuppy.PaymentTests@63021689]" started-at="2023-09-14T16:21:10 BST" name="order_form_single_filed_empty_negative_Test" data-provider="csv_reader" finished-at="2023-09-14T16:21:14 BST" duration-ms="3948" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=3, address=3338 Hilltop Drive, name=Pucio, description=Empty e-mail adress test, payment=Check, error=Email can't be blank, email=, errorHeader=1 error prohibited this order from being saved:}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order_form_single_filed_empty_negative_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:herokuapp.adoptpuppy.PaymentTests@63021689]" started-at="2023-09-14T16:21:14 BST" name="tearDown" finished-at="2023-09-14T16:21:15 BST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- herokuapp.adoptpuppy.PaymentTests -->
+    </test> <!-- OrderFormTests -->
+    <test started-at="2023-09-14T16:21:15 BST" name="E2E scenarios" finished-at="2023-09-14T16:21:33 BST" duration-ms="18610">
+      <class name="herokuapp.adoptpuppy.E2eTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:herokuapp.adoptpuppy.E2eTests@498d318c]" started-at="2023-09-14T16:21:15 BST" name="setUp" finished-at="2023-09-14T16:21:16 BST" duration-ms="1006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@b3a8455]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="adopt_one_dog_Test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:herokuapp.adoptpuppy.E2eTests@498d318c]" started-at="2023-09-14T16:21:16 BST" name="adopt_one_dog_Test" finished-at="2023-09-14T16:21:19 BST" duration-ms="3645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pucio]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pucio street 123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pucio@pucio.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adopt_one_dog_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:herokuapp.adoptpuppy.E2eTests@498d318c]" started-at="2023-09-14T16:21:19 BST" name="tearDown" finished-at="2023-09-14T16:21:19 BST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:herokuapp.adoptpuppy.E2eTests@498d318c]" started-at="2023-09-14T16:21:19 BST" name="setUp" finished-at="2023-09-14T16:21:21 BST" duration-ms="1137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@b3a8455]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="adopt_two_dogs_and_add_3_items_to_one(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:herokuapp.adoptpuppy.E2eTests@498d318c]" started-at="2023-09-14T16:21:21 BST" name="adopt_two_dogs_and_add_3_items_to_one" finished-at="2023-09-14T16:21:26 BST" duration-ms="5464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pucio]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pucio street 123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pucio@pucio.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adopt_two_dogs_and_add_3_items_to_one -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:herokuapp.adoptpuppy.E2eTests@498d318c]" started-at="2023-09-14T16:21:26 BST" name="tearDown" finished-at="2023-09-14T16:21:26 BST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:herokuapp.adoptpuppy.E2eTests@498d318c]" started-at="2023-09-14T16:21:26 BST" name="setUp" finished-at="2023-09-14T16:21:27 BST" duration-ms="1020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@b3a8455]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="adopt_two_random_dogs_with_the_same_addition_Test(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:herokuapp.adoptpuppy.E2eTests@498d318c]" started-at="2023-09-14T16:21:27 BST" name="adopt_two_random_dogs_with_the_same_addition_Test" finished-at="2023-09-14T16:21:33 BST" duration-ms="5784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pucio]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pucio street 123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pucio@pucio.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adopt_two_random_dogs_with_the_same_addition_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:herokuapp.adoptpuppy.E2eTests@498d318c]" started-at="2023-09-14T16:21:33 BST" name="tearDown" finished-at="2023-09-14T16:21:33 BST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- herokuapp.adoptpuppy.E2eTests -->
+    </test> <!-- E2E scenarios -->
+    <test started-at="2023-09-14T16:21:33 BST" name="Cart tests" finished-at="2023-09-14T16:21:45 BST" duration-ms="11741">
+      <class name="herokuapp.adoptpuppy.CartTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:herokuapp.adoptpuppy.CartTests@32eff876]" started-at="2023-09-14T16:21:33 BST" name="setUp" finished-at="2023-09-14T16:21:34 BST" duration-ms="968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c930fc3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="adopt_another_puppy_btn_test()[pri:0, instance:herokuapp.adoptpuppy.CartTests@32eff876]" started-at="2023-09-14T16:21:34 BST" name="adopt_another_puppy_btn_test" finished-at="2023-09-14T16:21:37 BST" duration-ms="2732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adopt_another_puppy_btn_test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:herokuapp.adoptpuppy.CartTests@32eff876]" started-at="2023-09-14T16:21:37 BST" name="tearDown" finished-at="2023-09-14T16:21:37 BST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:herokuapp.adoptpuppy.CartTests@32eff876]" started-at="2023-09-14T16:21:37 BST" name="setUp" finished-at="2023-09-14T16:21:38 BST" duration-ms="902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c930fc3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="change_mind_btn_test()[pri:0, instance:herokuapp.adoptpuppy.CartTests@32eff876]" started-at="2023-09-14T16:21:38 BST" name="change_mind_btn_test" finished-at="2023-09-14T16:21:41 BST" duration-ms="2915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- change_mind_btn_test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:herokuapp.adoptpuppy.CartTests@32eff876]" started-at="2023-09-14T16:21:41 BST" name="tearDown" finished-at="2023-09-14T16:21:41 BST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:herokuapp.adoptpuppy.CartTests@32eff876]" started-at="2023-09-14T16:21:41 BST" name="setUp" finished-at="2023-09-14T16:21:42 BST" duration-ms="920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c930fc3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="complete_the_adoption_btn_test()[pri:0, instance:herokuapp.adoptpuppy.CartTests@32eff876]" started-at="2023-09-14T16:21:42 BST" name="complete_the_adoption_btn_test" finished-at="2023-09-14T16:21:45 BST" duration-ms="2733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- complete_the_adoption_btn_test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:herokuapp.adoptpuppy.CartTests@32eff876]" started-at="2023-09-14T16:21:45 BST" name="tearDown" finished-at="2023-09-14T16:21:45 BST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- herokuapp.adoptpuppy.CartTests -->
+    </test> <!-- Cart tests -->
+    <test started-at="2023-09-14T16:21:45 BST" name="Navigation tests Chrome" finished-at="2023-09-14T16:21:52 BST" duration-ms="6631">
+      <class name="herokuapp.adoptpuppy.NavigationTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:herokuapp.adoptpuppy.NavigationTests@74e52303]" started-at="2023-09-14T16:21:45 BST" name="setUp" finished-at="2023-09-14T16:21:46 BST" duration-ms="911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@25c6ab3f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="previous_btn_first_page_test()[pri:0, instance:herokuapp.adoptpuppy.NavigationTests@74e52303]" started-at="2023-09-14T16:21:46 BST" name="previous_btn_first_page_test" finished-at="2023-09-14T16:21:48 BST" duration-ms="1775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- previous_btn_first_page_test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:herokuapp.adoptpuppy.NavigationTests@74e52303]" started-at="2023-09-14T16:21:48 BST" name="tearDown" finished-at="2023-09-14T16:21:48 BST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:herokuapp.adoptpuppy.NavigationTests@74e52303]" started-at="2023-09-14T16:21:48 BST" name="setUp" finished-at="2023-09-14T16:21:49 BST" duration-ms="921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@25c6ab3f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="previous_btn_test()[pri:0, instance:herokuapp.adoptpuppy.NavigationTests@74e52303]" started-at="2023-09-14T16:21:49 BST" name="previous_btn_test" finished-at="2023-09-14T16:21:51 BST" duration-ms="2650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- previous_btn_test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:herokuapp.adoptpuppy.NavigationTests@74e52303]" started-at="2023-09-14T16:21:51 BST" name="tearDown" finished-at="2023-09-14T16:21:52 BST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- herokuapp.adoptpuppy.NavigationTests -->
+    </test> <!-- Navigation tests Chrome -->
+  </suite> <!-- FullUITestSuite -->
+</testng-results>

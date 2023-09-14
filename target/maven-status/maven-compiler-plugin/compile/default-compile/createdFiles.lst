@@ -1,0 +1,9 @@
+herokuapp\adoptpuppy\pages\BasePageObject.class
+herokuapp\adoptpuppy\pages\MainPage.class
+herokuapp\adoptpuppy\base\TestUtilities.class
+herokuapp\adoptpuppy\pages\PuppiesPage.class
+herokuapp\adoptpuppy\pages\CartPage.class
+herokuapp\adoptpuppy\base\BaseTest.class
+herokuapp\adoptpuppy\base\BrowserDriverFactory.class
+herokuapp\adoptpuppy\base\CsvDataProviders.class
+herokuapp\adoptpuppy\pages\OrderPage.class
